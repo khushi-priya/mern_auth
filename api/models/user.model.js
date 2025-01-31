@@ -16,6 +16,10 @@ const userSchema=new mongoose.Schema({
         required:true,
         
     },
+    profilePicture:{
+        type:String,
+        default:"https://themarketingcrowd.ie/wp-content/uploads/2017/01/Round-Profile-Pic.png",
+    },
   
 },{timestamps:true});
 
